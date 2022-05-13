@@ -75,7 +75,7 @@ def login():
             next_page = url_for('home')
         app.logger.error('Admin logged successfully')
         return redirect(next_page)
-    app.logger.error('User logged in successfully')
+    app.logger.warning('User logged in successfully')
     session["state"] = str(uuid.uuid4())
     auth_url = _build_auth_url(scopes=Config.SCOPE, state=session["state"])
     return render_template('login.html', title='Sign In', form=form, auth_url=auth_url)
@@ -98,7 +98,6 @@ def authorized():
         if "error" in result:
             app.logger.error('Token failed')
             return render_template("auth_error.html", result=result)
-        app.logger.error('User logged in successfully')
         session["user"] = result.get("id_token_claims")
         # Note: In a real app, we'd use the 'name' property from session["user"] below
         # Here, we'll use the admin username for anyone who is authenticated by MS
