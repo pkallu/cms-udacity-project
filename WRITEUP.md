@@ -15,7 +15,7 @@ For this particular app, it was an easy decision for me to go with App service. 
 2. Azure has automated deloyment option to deploy code using github actions to App service. 
 3. Azure app service has free tier that I can use for deploying a web app
 
-*Comparison in tabular format
+### Comparison in tabular format
 
 | Feature     | App Service   | Virtual Machine |
 | ----------- | ----------- |     -----------   |
@@ -27,9 +27,9 @@ For this particular app, it was an easy decision for me to go with App service. 
 
 Based on above factors I have picked App service for this excersize. Costs - App service has a free tier that I was able to utilize for deploying the application. Scalability - It was not a big concern for me as it is a test application. Availability - Even though, there was no SLA available for free tier of the app service, I was able to test the application. Workflow - I was able to create github action to deploy code from github to app service.
 
-On contrary to my above points, I would switch to virtual machine as my option in case below situations 
+I would use virtual machine as my option in below scenarios. 
 
-1. If I need full access to OS and the softwares installed on the server as VM give me the control to install the required services for the app that I would like run on the machine
-2. App service has limitation on scalability when it comes to number of cores and RAM. VM can be scaled a lot more than app service.
-3. When cost is not a problem to maintain and scale the application then VM is a great option for app environment.
+1.If I need full access to OS and the softwares installed on the server, VM gives the control to install the required updates and softwares for the app to run on the machine.
+2. App service has limitation on scalability when it comes to number of Cores and RAM. VM can be scaled a lot more than app service.
+3. When cost is not a problem to maintain and scale the application then VM is a great option.
 
