@@ -19,8 +19,7 @@ All the above points made me choose app service over virtual machine
 
 | Feature     | App Service   | Virtual Machine |
 | ----------- | ----------- |     -----------   |
-| Costs       | App service has free version that can be 
-                utilized for this kind of excersize       | VM doesn't have free tier and there is minimum cost per month for month to utilize it
+| Costs       | App service has free version that can be utilized for this kind of excersize       | VM doesn't have free tier and there is minimum cost per month for month to utilize it
 | Scalability   | App Service can be auto scaled based on the needs. | VM can be scaled using scale sets
 | Availability   | No service level agreement will be provided for free tier. Apps running on subscription level will be provided with 99.95% availability  | VM gets availability from 95% and up based on various factors like availability zones, sets, etc
 | Workflow   | App service supports various deployment options like github actions, AZ devops pipelines, etc      | VM also supports similar features like instant deployment from github, az devops, etc
