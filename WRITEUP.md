@@ -25,7 +25,7 @@ For this particular app, it was an easy decision for me to go with App service. 
 | Workflow   | App service supports various deployment options like github actions, AZ devops pipelines, etc      | VM also supports similar features like instant deployments from github, az devops, etc. No Built in support for application updates
 
 
-Based on above factors I have picked App service for this excersize. Costs - App service has a free tier that I was able to utilize for deploying the application. Scalability - It was not a big concern for me as it is a test application. Availability - Even though, there was no SLA available for free tier of the app service, I was able to deploy and test the application. Workflow - I was able to create github action to deploy code from github to app service.
+Based on above factors I have picked App service for this excersize. Costs - App service has a free tier that I was able to utilize for deploying the application vs VM would have cost me some(May be less than a $1) money for basic specs. Scalability - It was not a big concern for me as it is a test application. Availability - Even though, there was no SLA available for free tier of the app service, I was able to deploy and test the application. Workflow - I was able to create github action to deploy code from github to app service.
 
 I would use virtual machine as my option in below scenarios. 
 
