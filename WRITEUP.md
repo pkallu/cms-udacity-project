@@ -17,9 +17,9 @@ For this particular app, it was an easy decision for me to go with App service. 
 
 All the above points made me choose app service over virtual machine
 
-| Feature      | App Service |
-| ----------- | ----------- |
-| Costs       | Title       |
+| Feature     | App Service   | Virtual Machine |
+| ----------- | ----------- |     -----------   |
+| Costs       | App service has free version        | 
 | Scalability   | Text        |
 | Availability   | Text        |
 | Workflow   | Text        |
