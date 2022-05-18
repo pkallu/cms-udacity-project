@@ -15,7 +15,7 @@ For this particular app, it was an easy decision for me to go with App service. 
 2. Azure has automated deloyment option to deploy code using github actions to App service. 
 3. Azure app service has free tier that I can use for deploying a web app
 
-All the above points made me choose app service over virtual machine
+*Comparison in tabular format
 
 | Feature     | App Service   | Virtual Machine |
 | ----------- | ----------- |     -----------   |
