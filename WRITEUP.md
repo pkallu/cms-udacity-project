@@ -16,3 +16,10 @@ For this particular app, it was an easy decision for me to go with App service. 
 3. Azure app service has free tier that I can use for deploying a web app
 
 All the above points made me choose app service over virtual machine
+
+| Feature      | App Service |
+| ----------- | ----------- |
+| Costs       | Title       |
+| Scalability   | Text        |
+| Availability   | Text        |
+| Workflow   | Text        |
